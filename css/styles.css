@@ -142,6 +142,7 @@ header {
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
+  outline: 2px solid red;
 }
 
 .hero {
@@ -189,9 +190,6 @@ header {
   background-color: #188ce8;
 }
 
-.feature {
-}
-
 .features {
   display: flex;
   justify-content: center;
@@ -228,6 +226,7 @@ header {
 }
 
 .work-title {
+  padding-top: ;
   margin-bottom: 50px;
 }
 
@@ -303,9 +302,8 @@ margin-right: 30px;
 .portfolio-btn {
   display: flex;
   justify-content: center;
-  align-items: center;
 
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .portfolio-btn .item:not(:last-child) {
