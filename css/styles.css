@@ -72,6 +72,7 @@ header {
 }
 
 .logo {
+  display: block;
   margin-right: auto;
 
   font-family: 'Raleway', sans-serif;
@@ -79,6 +80,11 @@ header {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+
+.logo.head {
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 .logo-web {
@@ -123,6 +129,12 @@ header {
   margin-left: auto;
 }
 
+.auth-head .contacts {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .auth-head .item + .item {
   margin-left: 50px;
 }
@@ -161,8 +173,8 @@ header {
 }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: var(--main-gap-layot);
+  margin: 0 auto 30px;
+  max-width: 696px;
 
   color: #ffffff;
   font-weight: 900;
@@ -384,9 +396,8 @@ header {
   padding: 20px 24px;
 }
 
-.card {
-  box-shadow: var(--card-shadow);
-  border-radius: 0px 0px 4px 4px;
+.card-content {
+  border: 1px solid #eeeeee;
 }
 
 .projects a {
@@ -401,10 +412,14 @@ header {
   padding-bottom: 60px;
 }
 
+.logo.foot {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .adress {
   font-style: normal;
   letter-spacing: 0.03em;
-  margin-top: 20px;
 }
 .adress-street {
   margin-bottom: 9px;
